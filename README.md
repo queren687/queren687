@@ -22,6 +22,10 @@
     <img src="https://img.shields.io/badge/Check%20Out%20My%20Interactive%20Portfolio-FF69B4?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
   </a>
 </p>
+<p>
+Interactive Math & Physics Visualizer: Building a web application designed for students like myself to bring complex equations, kinematics, and mathematical concepts to life through real-time simulations and interactive variables.
+</p>
+
 
 ### Tech Stack
 
