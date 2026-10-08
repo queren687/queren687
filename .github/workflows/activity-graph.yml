@@ -2,9 +2,9 @@ name: Generate Activity Graph
 
 on:
   schedule:
-    # Runs automatically every night at midnight UTC
+    # S'exécute automatiquement chaque jour à minuit UTC
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch: # Permet le déclenchement manuel
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Generate Activity Graph
-        uses: maurodesouza/github-readme-activity-graph-action@v2
+        uses: maurodesouza/github-readme-activity-graph-action@master
         with:
           username: queren687
           output: dist/activity-graph.svg
